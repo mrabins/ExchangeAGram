@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13532E151AAD4870000CD2D3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13532E141AAD4870000CD2D3 /* MobileCoreServices.framework */; };
 		136480311AAC280A00D71C73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136480301AAC280A00D71C73 /* AppDelegate.swift */; };
 		136480341AAC280A00D71C73 /* ExchangeAGram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 136480321AAC280A00D71C73 /* ExchangeAGram.xcdatamodeld */; };
 		136480391AAC280A00D71C73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136480371AAC280A00D71C73 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13532E141AAD4870000CD2D3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		1364802B1AAC280A00D71C73 /* ExchangeAGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeAGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1364802F1AAC280A00D71C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		136480301AAC280A00D71C73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13532E151AAD4870000CD2D3 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +99,7 @@
 		1364802E1AAC280A00D71C73 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				13532E141AAD4870000CD2D3 /* MobileCoreServices.framework */,
 				1364802F1AAC280A00D71C73 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -415,6 +419,7 @@
 				1364804F1AAC280B00D71C73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		136480501AAC280B00D71C73 /* Build configuration list for PBXNativeTarget "ExchangeAGramTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +428,7 @@
 				136480521AAC280B00D71C73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
