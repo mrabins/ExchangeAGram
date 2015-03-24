@@ -10,10 +10,12 @@ import UIKit
 import MobileCoreServices
 import CoreData
 
+
 class FeedViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
    
     @IBOutlet weak var collectionView: UICollectionView!
+
     
     var feedArray: [AnyObject] = []
 
@@ -130,4 +132,16 @@ class FeedViewController: UIViewController, UICollectionViewDataSource, UICollec
         
     }
     
+    // UICollectionViewDelegate
+    
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        let thisItem = feedArray[indexPath.row] as FeedItem
+        
+        var filterVC = FilterViewController()
+        filterVC.thisFeedItem = thisItem
+        
+        self.navigationController?.pushViewController(filterVC, animated: false)
+    }
+    
 }
+

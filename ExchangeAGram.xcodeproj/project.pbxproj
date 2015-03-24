@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1345312D1ABE0C7B00602DB7 /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345312C1ABE0C7B00602DB7 /* FilterCell.swift */; };
 		13532E151AAD4870000CD2D3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13532E141AAD4870000CD2D3 /* MobileCoreServices.framework */; };
 		136480311AAC280A00D71C73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136480301AAC280A00D71C73 /* AppDelegate.swift */; };
 		136480341AAC280A00D71C73 /* ExchangeAGram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 136480321AAC280A00D71C73 /* ExchangeAGram.xcdatamodeld */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1345312C1ABE0C7B00602DB7 /* FilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
 		13532E141AAD4870000CD2D3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		1364802B1AAC280A00D71C73 /* ExchangeAGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeAGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1364802F1AAC280A00D71C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				136480301AAC280A00D71C73 /* AppDelegate.swift */,
 				136480531AAC29AE00D71C73 /* FeedViewController.swift */,
 				13A5CFE51AAEBC400056A119 /* FilterViewController.swift */,
+				1345312C1ABE0C7B00602DB7 /* FilterCell.swift */,
 				136480571AAC2E3900D71C73 /* FeedCell.swift */,
 				136480371AAC280A00D71C73 /* Main.storyboard */,
 				1364803A1AAC280A00D71C73 /* Images.xcassets */,
@@ -228,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1345312D1ABE0C7B00602DB7 /* FilterCell.swift in Sources */,
 				136480311AAC280A00D71C73 /* AppDelegate.swift in Sources */,
 				136480581AAC2E3900D71C73 /* FeedCell.swift in Sources */,
 				13A5CFE81AAEBF7B0056A119 /* FeedItem.swift in Sources */,
