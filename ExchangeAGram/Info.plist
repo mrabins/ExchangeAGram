@@ -47,6 +47,12 @@
 			</array>
 		</dict>
 	</array>
+	<key>NSLocationUsageDescription</key>
+	<string>ExchangeAGram would like to use your location</string>
+	<key>NSLocationWhenInUsageDescription</key>
+	<string>ExchangeAGram would like to use your location</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>ExchangeAGram would like to use your location</string>
 	<key>FacebookAppID</key>
 	<string>1443005359343773</string>
 	<key>FacebookDisplayName</key>
