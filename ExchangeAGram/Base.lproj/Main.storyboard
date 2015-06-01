@@ -131,7 +131,6 @@
         <!--Map View Controller-->
         <scene sceneID="fY2-GV-2KN">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jsM-Cq-boM" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Tem-0y-Hqz" customClass="MapViewController" customModule="ExchangeAGram" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="e1X-HG-7hX"/>
@@ -151,8 +150,9 @@
                         <outlet property="mapView" destination="d3J-r5-Owm" id="8Bl-cf-vMw"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jsM-Cq-boM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2025" y="998"/>
+            <point key="canvasLocation" x="2039" y="998"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hT3-Sc-heI">
