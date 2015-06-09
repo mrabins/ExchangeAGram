@@ -126,7 +126,7 @@ class FeedViewController: UIViewController, UICollectionViewDataSource, UICollec
         
         let UUID = NSUUID().UUIDString
         feedItem.uniqueID = UUID
-        
+
         (UIApplication.sharedApplication().delegate as! AppDelegate).saveContext()
         
         feedArray.append(feedItem)
