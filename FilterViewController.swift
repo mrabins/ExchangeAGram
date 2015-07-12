@@ -140,7 +140,6 @@ class FilterViewController: UIViewController, UICollectionViewDataSource, UIColl
             
             let textField = alert.textFields! [0] as! UITextField
             
-            
             let photoAction = UIAlertAction(title: "Post Photo to Facebook with Caption", style: UIAlertActionStyle.Destructive) { (UIAlertAction) -> Void in
                 
                 self.shareToFacebook(indexPath)
@@ -165,7 +164,6 @@ class FilterViewController: UIViewController, UICollectionViewDataSource, UIColl
             }
             alert.addAction(cancelAction)
 
-            
         }
         
         self.presentViewController(alert, animated: true, completion: nil)
@@ -202,7 +200,6 @@ class FilterViewController: UIViewController, UICollectionViewDataSource, UIColl
                 println(error)
             }
         }
-
         
         }
 

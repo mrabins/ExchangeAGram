@@ -136,7 +136,6 @@ class FeedViewController: UIViewController, UICollectionViewDataSource, UICollec
         self.dismissViewControllerAnimated(true, completion: nil)
         
         self.collectionView.reloadData()
-        
     }
     
 
